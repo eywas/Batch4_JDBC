@@ -15,6 +15,28 @@ public class Jdbc1_Intro {
 
         ResultSet resultSet = statement.executeQuery("select * from employees");
 
+        resultSet.next();
+        System.out.println("resultSet.getString(\"employeeId\") = " + resultSet.getString("employeeId"));
+        System.out.println("resultSet.getString(\"firstName\") = " + resultSet.getString("firstName"));
+
+        System.out.println("resultSet.getString(3) = " + resultSet.getString(3));
+        System.out.println("resultSet.getString(4) = " + resultSet.getString(4));
+
+        resultSet.next();
+        System.out.println("resultSet.getString(\"phonenumber\") = " + resultSet.getString("phonenumber"));
+        System.out.println("resultSet.getString(5) = " + resultSet.getString(5));
+
+    while(resultSet.next()){
+        System.out.println(
+                resultSet.getString("eployeeId")
+                + " - "
+                + resultSet.getString("firstName")
+                + " - "
+                + resultSet.getString("lastName")
+        );
+    }
+
+
         resultSet.close();
         statement.close();
         connection.close();
