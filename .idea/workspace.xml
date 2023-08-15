@@ -4,16 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae825b46-3826-4a20-bbec-37c5fa0159b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="ae825b46-3826-4a20-bbec-37c5fa0159b9" name="Changes" comment="15 agust 2023">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/tests/jdbc_tests/day2/Jdbc1_MovingCursorOnTheTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/tests/jdbc_tests/day2/Jdbc2_Metadata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/tests/jdbc_tests/day2/Jdbc3_ListOfMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/tests/jdbc_tests/day2/Jdbc4_DynamicList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/tests/jdbc_tests/day2/Jdbc5_DbUtilsPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/utilities/DBUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,29 +46,111 @@
     <option name="showVisibilityIcons" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Nadide/IdeaProjects/Batch4_JDBC/src/test/java/com/kraftech"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="Jdbc2_Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kraftech.tests.jdbc_tests.day1.Jdbc2_Practice" />
+}]]></component>
+  <component name="RunManager" selected="TestNG.Jdbc4_DynamicList.test1">
+    <configuration name="Jdbc1_MovingCursorOnTheTable.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_JDBC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kraftech.tests.jdbc_tests.day1.*" />
+          <option name="PATTERN" value="com.kraftech.tests.jdbc_tests.day2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.kraftech.tests.jdbc_tests.day2" />
+      <option name="MAIN_CLASS_NAME" value="com.kraftech.tests.jdbc_tests.day2.Jdbc1_MovingCursorOnTheTable" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Jdbc2_Metadata.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch4_JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kraftech.tests.jdbc_tests.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kraftech.tests.jdbc_tests.day2" />
+      <option name="MAIN_CLASS_NAME" value="com.kraftech.tests.jdbc_tests.day2.Jdbc2_Metadata" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Jdbc3_ListOfMapExample.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch4_JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kraftech.tests.jdbc_tests.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kraftech.tests.jdbc_tests.day2" />
+      <option name="MAIN_CLASS_NAME" value="com.kraftech.tests.jdbc_tests.day2.Jdbc3_ListOfMapExample" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Jdbc4_DynamicList.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch4_JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kraftech.tests.jdbc_tests.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kraftech.tests.jdbc_tests.day2" />
+      <option name="MAIN_CLASS_NAME" value="com.kraftech.tests.jdbc_tests.day2.Jdbc4_DynamicList" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Jdbc5_DbUtilsPractice.listOfMap" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Batch4_JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kraftech.tests.jdbc_tests.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kraftech.tests.jdbc_tests.day2" />
+      <option name="MAIN_CLASS_NAME" value="com.kraftech.tests.jdbc_tests.day2.Jdbc5_DbUtilsPractice" />
+      <option name="METHOD_NAME" value="listOfMap" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Jdbc2_Practice" />
+        <item itemvalue="TestNG.Jdbc4_DynamicList.test1" />
+        <item itemvalue="TestNG.Jdbc5_DbUtilsPractice.listOfMap" />
+        <item itemvalue="TestNG.Jdbc3_ListOfMapExample.test1" />
+        <item itemvalue="TestNG.Jdbc1_MovingCursorOnTheTable.test1" />
+        <item itemvalue="TestNG.Jdbc2_Metadata.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -71,6 +163,18 @@
       <option name="presentableId" value="Default" />
       <updated>1692042417483</updated>
     </task>
+    <task id="LOCAL-00001" summary="15 agust 2023">
+      <created>1692091873685</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692091873685</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="15 agust 2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="15 agust 2023" />
   </component>
 </project>
