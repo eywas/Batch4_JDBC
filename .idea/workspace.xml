@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae825b46-3826-4a20-bbec-37c5fa0159b9" name="Changes" comment="15 agust 2023">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/tests/jdbc_tests/day2/Jdbc1_MovingCursorOnTheTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/tests/jdbc_tests/day2/Jdbc2_Metadata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/tests/jdbc_tests/day2/Jdbc3_ListOfMapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/tests/jdbc_tests/day2/Jdbc4_DynamicList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/tests/jdbc_tests/day2/Jdbc5_DbUtilsPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kraftech/utilities/DBUtils.java" afterDir="false" />
+    <list default="true" id="ae825b46-3826-4a20-bbec-37c5fa0159b9" name="Changes" comment="15 agust 2023 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,13 +40,13 @@
     <option name="showVisibilityIcons" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Nadide/IdeaProjects/Batch4_JDBC/src/test/java/com/kraftech"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Nadide/IdeaProjects/Batch4_JDBC/src/test/java/com/kraftech&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="TestNG.Jdbc4_DynamicList.test1">
     <configuration name="Jdbc1_MovingCursorOnTheTable.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Batch4_JDBC" />
@@ -170,11 +164,19 @@
       <option name="project" value="LOCAL" />
       <updated>1692091873685</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="15 agust 2023 2">
+      <created>1692130901207</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692130901207</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="15 agust 2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="15 agust 2023" />
+    <MESSAGE value="15 agust 2023 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="15 agust 2023 2" />
   </component>
 </project>
